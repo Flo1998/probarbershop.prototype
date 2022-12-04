@@ -1,0 +1,20 @@
+*{margin: 0;}
+body{
+    background-color: rgb(30, 30, 30);
+    color:rgb(254, 242, 223) ;
+    -webkit-tap-highlight-color: transparent;
+}
+h1{
+    background:linear-gradient(135deg, #6c799c, #809e9e 60%, #43627f);
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+table td{
+    font-size: 1.85em;
+    padding: 20px;
+}
+table td:nth-child(2){padding: 20px;}
+tr:nth-child(odd){background-color: rgb(145, 152, 167);color: black;}
+tr:nth-child(even){background-color: #5a6b7b;color: rgb(251, 230, 217);}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="FR-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/styles/mediaqueries/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Blaka+Ink&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Simonetta&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="scripts/mediaqueries.js" defer></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="./index.js"></script>
+    <script src="scripts/maps.js" defer></script>
+    <title>ProBarberShop - Accueil</title>
+</head>
+<body>
+    <header>
+        <img class="title-img" src="assets/img/logo-enseigne.jpg" alt="">
+        <div class="header-ctn scrollFade">
+            <div class="bttm-cntr"><h1>Pro Barber Shop</h1></div>
+        </div> 
+        <p class="contact-us scrollFade">Nous contacter: 
+            <img class="phone" src="assets/icons/telephone.png">
+            <a href="tel:0767719083">07 67 71 90 83</a>
+        </p>
+        <nav class="scrollFade">
+            <div>
+                <a href="pages/masculin.html">
+                    <h2 class="m-btn">Masculin <img src="assets/icons/male.png" alt="masculin-icon"></h2>
+                </a>
+            </div>
+            <div>
+                <a href="pages/feminin.html">
+                    <h2 class="f-btn"><img src="assets/icons/female.png" alt="féminin-icon"> Féminin</h2>
+                </a>
+            </div>
+        </nav><br>
+    </header>
+    <section class="illustration">
+        <div class="swiper swip">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="assets/img/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/5.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="scripts/swiper.js"></script>
+        <div class="definition">
+            <p>
+                <span class="scrollFade">Pro Barber Shop signifie tout naturellement salon de coiffure professionnel.</span>
+            </p>
+            <p id="fade">
+                <span>D'après </span><span>le </span><span>folklore, </span><span>le </span><span>terme </span><span>« </span>
+                <span>barbershop </span><span>» </span><span>voit </span><span>le </span><span>jour </span><span>au </span>
+                <span>début </span><span>du </span><span>siècle </span><span>dans </span><span>les </span><span>petites </span>
+                <span>villes </span><span>des </span><span>États-Unis, </span><span>alors </span><span>que </span>
+                <span>les </span><span>hommes </span><span>se </span><span>rencontraient </span><span>au </span><span>salon </span>
+                <span>de </span><span>coiffure, </span><span>non </span><span>seulement </span><span>pour </span>
+                <span>un </span><span>rasage </span><span>et </span><span>une </span><span>coupe </span><span>de </span>
+                <span>cheveux, </span><span>mais </span><span>aussi </span><span>pour </span><span>chanter </span>
+                <span>des </span><span>airs </span><span>improvisés.</span>
+            </p>
+        </div>
+        <script src="scripts/scrollfade.js"></script>
+    </section>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhCbuDe6eGLmwNgmUZwmlJgIJn4o5I2kw&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <section class="about">
+        <!-- <div class="who">
+            <div class="us container reveal"><h2>Qui sommes-nous ?</h2></div>
+            <div class="container reveal"><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sit, totam illum neque quas esse saepe ad consequuntur quia odit ratione consequatur 
+                mollitia quaerat at tempore blanditiis commodi. Rerum quae corporis at ut blanditiis 
+                optio nam eveniet beatae labore necessitatibus. Pariatur praesentium possimus dolor 
+                omnis explicabo.</h3>
+            </div>
+        </div> -->
+        <div class="location-block">
+            <div class="us container reveal"><h2>Où nous trouver ?</h2></div>    
+            <div class="location container reveal">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.9389480862556!2d3.2988093999999997!3d49.6554
+                496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e83f92b6ab96db%3A0xc96518c5cc1dab31!2s35%20Bd%20Gustave%20
+                Gr%C3%A9goire%2C%2002700%20Tergnier!5e0!3m2!1sen!2sfr!4v1664475591317!5m2!1sen!2sfr" 
+                allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <div class="container reveal us"><h2>Quand et à quelle heure ?</h2></div>
+                <div class="container reveal"><h3>Nous vous accueillons du lundi au samedi de 9h à 19h</h3></div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class='prefooter'>
+        <div class='media'>
+            <div class='md'>
+                <h2 class='mediatitle'>Nos réseaux sociaux</h2>
+            </div>
+            <section class='scroll-container'>
+                <div class='scroll-element js-scroll slide-left'>
+                    <span>
+                        <a href='https://www.facebook.com/profile.php?id=100068596982364'>
+                            <img alt='' src='assets/icons/Facebook_logo.png'>
+                            <span style='padding: 8px'></span>
+                            <strong class="a">Pro Barber Shop</strong>
+                        </a>
+                    </span>
+                </div>
+            </section>
+            <section class='scroll-container'>
+                <div class='scroll-element js-scroll slide-left'>
+                    <span>
+                        <a href=''>
+                            <img alt='' src='assets/icons/Logo-Snapchat.png'>
+                            <span style='padding: 8px'></span>
+                            <strong class="b">url du snapchat</strong>
+                        </a>
+                    </span>
+                </div>
+            </section>
+            <script src='scripts/mediascroll.js'></script>
+        </div>
+    </section>
+    <footer>ProBarberShop &#x24B8; 2022. Tous droits réservés.</footer>
+    <script src="scripts/reveal.js"></script> 
+</body>
+</html>
